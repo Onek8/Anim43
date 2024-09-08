@@ -701,8 +701,8 @@ else:
                 'draw_color': draw_color,
             }
         )
-        return cls   
-
+        
+        return cls    
 
 ArmActionSocketInterface = _make_socket_interface('ArmActionSocketInterface', 'ArmNodeSocketAction')
 ArmAnimSocketInterface = _make_socket_interface('ArmAnimSocketInterface', 'ArmNodeSocketAnimAction')
